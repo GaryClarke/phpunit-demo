@@ -1,6 +1,8 @@
 <?php
 
-class ExampleAssertionsTest extends \PHPUnit\Framework\TestCase
+use PHPUnit\Framework\TestCase;
+
+class ExampleAssertionsTest extends TestCase
 {
 
     public function testThatStringsMatch()
